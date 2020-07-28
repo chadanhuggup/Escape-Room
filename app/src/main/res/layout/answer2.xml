@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Answer2" >
+
+    <ScrollView
+        android:layout_width="277dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/briefcaseInstruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There are 7 tips for a secure password hidden in this room. Find at least 4 to pass"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tipsDiscoveredHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tipsDiscovered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tips discovered so far" />
+
+            <TextView
+                android:id="@+id/counterTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/blankspace2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/tryPasswordButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Try to pass"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room3"
+    tools:context=".Room3">
+
+    <ImageButton
+        android:id="@+id/leave"
+        android:layout_width="69dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/doorclosed5" />
+
+    <ImageView
+        android:id="@+id/clockday"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@drawable/clockday" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="187dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963"
+        app:srcCompat="@drawable/diningtable" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="320dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797"
+        app:srcCompat="@drawable/sofa1" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="38dp"
+        android:layout_height="33dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/phoneapps" />
+
+    <ImageView
+        android:id="@+id/cushion1"
+        android:layout_width="60dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.333"
+        app:srcCompat="@drawable/cushion1" />
+
+    <ImageView
+        android:id="@+id/cushion2"
+        android:layout_width="60dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.333"
+        app:srcCompat="@drawable/cushion1" />
+
+    <ImageView
+        android:id="@+id/cushion3"
+        android:layout_width="60dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.333"
+        app:srcCompat="@drawable/cushion1" />
+
+    <Button
+        android:id="@+id/cushionButton"
+        android:layout_width="60dp"
+        android:layout_height="57dp"
+        android:background="@android:color/transparent"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/cushion1"
+        app:layout_constraintEnd_toEndOf="@+id/cushion1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/cushion1"
+        app:layout_constraintTop_toTopOf="@+id/cushion1"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/pictureframeFlagTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="0"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <TextView
+        android:id="@+id/cushionFlagTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="0"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <ImageView
+        android:id="@+id/number2"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301"
+        app:srcCompat="@drawable/number2" />
+
+    <ImageView
+        android:id="@+id/pictureFrame"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/number2"
+        app:layout_constraintEnd_toEndOf="@+id/number2"
+        app:layout_constraintStart_toStartOf="@+id/number2"
+        app:layout_constraintTop_toTopOf="@+id/number2"
+        app:srcCompat="@drawable/pictureframewith3" />
+
+    <Button
+        android:id="@+id/pictureframeButton"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:text="pictureframeButton"
+        android:background="@android:color/transparent"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/pictureFrame"
+        app:layout_constraintEnd_toEndOf="@+id/pictureFrame"
+        app:layout_constraintStart_toStartOf="@+id/pictureFrame"
+        app:layout_constraintTop_toTopOf="@+id/pictureFrame" />
+
+    <ImageView
+        android:id="@+id/blankpaper"
+        android:layout_width="43dp"
+        android:layout_height="29dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.333"
+        app:srcCompat="@drawable/tablepaper" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

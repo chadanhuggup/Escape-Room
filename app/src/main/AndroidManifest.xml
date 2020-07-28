@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.escaperoom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Escape Room"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Blankpaperpopup"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity
+            android:name=".Phonepopup"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Clockdaypopup"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".Exit"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Answer3"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".Room3"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Answer2"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Briefcasepopup"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Chairpopup"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Cabinetpopup"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".Room2"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Room1"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+
+            <!-- Remove intent from here and put it in Splash Screen Activity -->
+            <!-- This pretty much gives splash screen the right/control to launch -->
+        </activity>
+        <activity
+            android:name=".Infopopup"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Wallpopup"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Howpopup"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Answer1"
+            android:theme="@style/AppTheme.CustomTheme" />
+    </application>
+
+</manifest>

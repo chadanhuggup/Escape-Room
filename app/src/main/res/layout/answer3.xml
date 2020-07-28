@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Answer3" >
+
+    <ScrollView
+        android:layout_width="239dp"
+        android:layout_height="253dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/briefcaseInstruction"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:text="Recall MD5 (message digest 5). It produces a certain amount of bits.\nUse clues in the room to calculate unlock pin, then add that to the amount of bit md5 produces"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tipsDiscoveredHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Total"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/blankspace2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/tryPasswordButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Try total"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

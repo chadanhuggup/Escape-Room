@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room1"
+    tools:context=".Room1Activity">
+
+    <Button
+        android:id="@+id/briefcase"
+        android:layout_width="111dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:text="briefcase"
+        android:textColor="#00FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <Button
+        android:id="@+id/cabinet"
+        android:layout_width="77dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:text="cabinet"
+        android:textColor="#00FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <Button
+        android:id="@+id/wall"
+        android:layout_width="78dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:text="wall"
+        android:textColor="#00FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <ImageButton
+        android:id="@+id/leave"
+        android:layout_width="69dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/doorclosed5" />
+
+    <ImageView
+        android:id="@+id/stickynote"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/stickynote"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611" />
+
+    <Button
+        android:id="@+id/chair"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        android:background="@android:color/transparent"
+        android:text="chair"
+        android:textColor="#00FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/stickynote"
+        app:layout_constraintEnd_toEndOf="@+id/stickynote"
+        app:layout_constraintStart_toStartOf="@+id/stickynote"
+        app:layout_constraintTop_toTopOf="@+id/stickynote" />
+
+    <!--<TextView
+        android:id="@+id/mTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="         "
+        android:textColor="#FF0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="         "
+        android:textColor="#FF0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTextField" />
+
+    <TextView
+        android:id="@+id/seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="   test      "
+        android:textColor="#FF0000"
+        app:layout_constraintStart_toEndOf="@+id/minutes"
+        app:layout_constraintTop_toBottomOf="@+id/mTextField" />
+    -->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
